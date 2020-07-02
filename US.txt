@@ -1,0 +1,704 @@
+Done!
+========== us.pointstasks ==========
+========== us.pointstasks ==========
+
+Done!
+========== us.products ==========
+|____ __v : int
+|____ _id : bson.objectid.ObjectId
+|____ bu : str
+|____ bundleIds : list
+|____ category : str
+|____ classGroupDesc : str
+|____ classGroupUrl : str
+|____ commissionFixValue : NoneType
+|____ commissionPercentage : NoneType
+|____ commissionType : str
+|____ createdAt : datetime.datetime
+|____ createdBy : str
+|____ customServices : list
+|____ dataFinished : bool
+|____ deleted : bool
+|____ deliveryType : str
+|____ description : str
+|____ enableVIPDiscount : bool
+|____ endPurchaseTime : NoneType
+|____ expressDescription : str
+|____ firstTrialLessonId : str
+|____ fxBgPicUrl : str
+|____ fxBgPicUrls : list
+|____ icon : str
+|____ iosCheat : bool
+|____ isfxProduct : bool
+|____ joinCount : int
+|____ joinCountBase : int
+|____ labelPrice : int
+|____ labels : list
+|____ lectureNotes : list
+|____ lessonCount : int
+|____ level : str
+|____ limitMinPrice : NoneType
+|____ limitPurchaseAmount : bool
+|____ limitPurchaseTime : bool
+|____ limitWaitPayCount : int
+|____ order : int
+|____ orderCount : int
+|____ orderCountBase : int
+|____ paidOrderCount : int
+|____ paidPurchaseOfflineCount : int
+|____ paidSalemanPurchaseCount : int
+|____ payOptions : list
+|	|____ order : int
+|	|____ type : str
+|____ platform : str
+|____ poster : str
+|____ price : int
+|____ productRole : str
+|____ productServiceEndTime : NoneType
+|____ queueMaxTime : int
+|____ recommends : list
+|____ remark : str
+|____ salemanPurchaseCount : int
+|____ sellingUnit : str
+|____ shareDesc : str
+|____ shareTitle : str
+|____ showConsultButton : bool
+|____ showDeliveryNotice : bool
+|____ showPlatform : list
+|____ singleOrderPurchaseCount : int
+|____ siteDescription : str
+|____ siteKeyword : str
+|____ slaveProducts : list
+|____ spec : NoneType
+|____ startPurchaseTime : NoneType
+|____ status : str
+|____ subjects : list
+|____ subscribeCount : int
+|____ subscribeCountBase : int
+|____ subscribeNoticeTime : NoneType
+|____ subscribeNoticeWay : str
+|____ subscript : str
+|____ subtitle : str
+|____ target : dict
+|	|____ description : str
+|	|____ lessonsTimeArray : list
+|____ teacherIds : list
+|____ title : str
+|____ topicCount : int
+|____ totalCount : int
+|____ tuanOption : NoneType
+|____ tuanPrice : int
+|____ turn : str
+|____ type : str
+|____ updatedAt : datetime.datetime
+|____ updatedBy : str
+|____ videoPoster : str
+|____ viewCount : int
+|____ weixinTuisong : str
+|____ year : int
+========== us.products ==========
+
+Done!
+========== us.refundapply ==========
+========== us.refundapply ==========
+
+Done!
+========== us.lessoncatalog ==========
+========== us.lessoncatalog ==========
+
+Done!
+========== us.freights ==========
+========== us.freights ==========
+
+Done!
+========== us.coursescheduleresettask ==========
+========== us.coursescheduleresettask ==========
+
+Done!
+========== us.mycoupons ==========
+|____ _id : bson.objectid.ObjectId
+|____ available : int
+|____ bu : str
+|____ category : str
+|____ couponId : str
+|____ createdAt : datetime.datetime
+|____ endTime : datetime.datetime
+|____ platform : str
+|____ price : int
+|____ productId : str
+|____ startTime : datetime.datetime
+|____ status : str
+|____ title : str
+|____ total : int
+|____ updatedAt : datetime.datetime
+|____ useCondition : int
+|____ userId : str
+========== us.mycoupons ==========
+
+Done!
+========== us.livelessoncomments ==========
+========== us.livelessoncomments ==========
+
+Done!
+========== us.usertrialrecord ==========
+========== us.usertrialrecord ==========
+
+Done!
+========== us.monitor ==========
+|____ _id : bson.objectid.ObjectId
+|____ clientHeader : dict
+|	|____ accept : str
+|	|____ connection : str
+|	|____ content-length : str
+|	|____ content-type : str
+|	|____ host : str
+|	|____ platform : str
+|	|____ user-agent : str
+|	|____ wap : str
+|____ clientIp : str
+|____ createdAt : datetime.datetime
+|____ method : str
+|____ timeout : int
+|____ type : str
+|____ updatedAt : datetime.datetime
+|____ url : str
+========== us.monitor ==========
+
+Done!
+========== us.daystudystats ==========
+========== us.daystudystats ==========
+
+Done!
+========== us.productsubscribe ==========
+========== us.productsubscribe ==========
+
+Done!
+========== us.catalogtopicstatic ==========
+========== us.catalogtopicstatic ==========
+
+Done!
+========== us.myhistory ==========
+========== us.myhistory ==========
+
+Done!
+========== us.tuanorders ==========
+========== us.tuanorders ==========
+
+Done!
+========== us.myexercise ==========
+========== us.myexercise ==========
+
+Done!
+========== us.userexercisestats ==========
+========== us.userexercisestats ==========
+
+Done!
+========== us.userdaystats ==========
+========== us.userdaystats ==========
+
+Done!
+========== us.third_party_push ==========
+========== us.third_party_push ==========
+
+Done!
+========== us.newcourses ==========
+========== us.newcourses ==========
+
+Done!
+========== us.orders ==========
+========== us.orders ==========
+
+Done!
+========== us.customservice ==========
+========== us.customservice ==========
+
+Done!
+========== us.notice ==========
+|____ _id : bson.objectid.ObjectId
+|____ action : str
+|____ actionLabel : str
+|____ actor : dict
+|	|____ _id : str
+|	|____ headimgurl : str
+|	|____ nickname : str
+|____ bu : str
+|____ category : str
+|____ content : dict
+|	|____ _id : str
+|	|____ text : str
+|____ createdAt : datetime.datetime
+|____ isRead : bool
+|____ platform : str
+|____ topic : dict
+|	|____ _id : bson.objectid.ObjectId
+|	|____ entityId : str
+|	|____ entityType : str
+|	|____ title : str
+|____ updatedAt : datetime.datetime
+|____ userId : str
+========== us.notice ==========
+
+Done!
+========== us.checkinrecords ==========
+|____ _id : bson.objectid.ObjectId
+|____ bu : str
+|____ continuedDays : int
+|____ createdAt : datetime.datetime
+|____ dateStr : str
+|____ platform : str
+|____ totalDays : int
+|____ updatedAt : datetime.datetime
+|____ userId : str
+========== us.checkinrecords ==========
+
+Done!
+========== us.userlivelessonprogress ==========
+========== us.userlivelessonprogress ==========
+
+Done!
+========== us.userstats ==========
+========== us.userstats ==========
+
+Done!
+========== us.mynote ==========
+========== us.mynote ==========
+
+Done!
+========== us.users ==========
+|____ _id : bson.objectid.ObjectId
+|____ createdAt : datetime.datetime, str
+|____ gender : str
+|____ headimgurl : str
+|____ lastHeartbeatAt : str
+|____ lastLoginAt : datetime.datetime, str
+|____ mobile : str
+|____ nickname : str
+|____ registerInfo : dict
+|	|____ appChannel : str
+|	|____ appName : str
+|	|____ appVersion : str
+|	|____ authType : str
+|	|____ clientType : str
+|	|____ ip : str
+|	|____ location : dict
+|	|	|____ city : str
+|	|	|____ province : str
+|	|____ mobileLocation : dict
+|	|	|____ area_code : str
+|	|	|____ city : str
+|	|	|____ op : str
+|	|	|____ phone : str
+|	|	|____ province : str
+|	|	|____ zip_code : str
+|	|____ os : str
+|	|____ osVersion : str
+|	|____ platform : str
+|____ updatedAt : datetime.datetime, str
+|____ zhuma : dict
+|	|____ deviceId : NoneType
+|	|____ lastHeartbeatInfo : dict
+|	|	|____ appVersion : str
+|	|	|____ at : str
+|	|	|____ ip : str
+|	|	|____ location : dict
+|	|	|	|____ city : str
+|	|	|	|____ province : str
+|	|	|____ os : str
+|	|____ lastLoginInfo : dict
+|	|	|____ appVersion : str
+|	|	|____ at : datetime.datetime, str
+|	|	|____ authType : str
+|	|	|____ clientType : str
+|	|	|____ ip : str
+|	|	|____ location : dict
+|	|	|	|____ city : str
+|	|	|	|____ province : str
+|	|	|____ os : str
+|	|	|____ osVersion : str
+|	|	|____ ua : str
+|	|____ onlineTimeTotal : int
+|	|____ role : str
+|	|____ token : str
+|	|____ tokens : list
+========== us.users ==========
+
+Done!
+========== us.mynotesummary ==========
+========== us.mynotesummary ==========
+
+Done!
+========== us.report ==========
+|____ _id : bson.objectid.ObjectId
+|____ bu : str
+|____ createdAt : datetime.datetime
+|____ platform : str
+|____ reason : str
+|____ targetId : str
+|____ targetType : str
+|____ text : str
+|____ updatedAt : datetime.datetime
+|____ userId : str
+|____ userInfo : dict
+|	|____ headimgurl : str
+|	|____ nickname : str
+========== us.report ==========
+
+Done!
+========== us.iaprecords ==========
+========== us.iaprecords ==========
+
+Done!
+========== us.dumbuser ==========
+========== us.dumbuser ==========
+
+Done!
+========== us.catalogtypes ==========
+========== us.catalogtypes ==========
+
+Done!
+========== us.userschedule ==========
+========== us.userschedule ==========
+
+Done!
+========== us.logisticsordertasks ==========
+========== us.logisticsordertasks ==========
+
+Done!
+========== us.checkinrandominfos ==========
+========== us.checkinrandominfos ==========
+
+Done!
+========== us.checkininfos ==========
+|____ _id : bson.objectid.ObjectId
+|____ bu : str
+|____ createdAt : datetime.datetime
+|____ dateStr : str
+|____ platform : str
+|____ poster : str
+|____ quotation : str
+|____ teacher : str
+|____ tips : str
+|____ updatedAt : datetime.datetime
+========== us.checkininfos ==========
+
+Done!
+========== us.topic ==========
+|____ _id : bson.objectid.ObjectId
+|____ bu : str
+|____ commentCount : int
+|____ comments : list
+|	|____ _id : bson.objectid.ObjectId
+|	|____ bu : str
+|	|____ createdAt : datetime.datetime
+|	|____ downvoteCount : int
+|	|____ entityId : str
+|	|____ entityInfo : dict
+|	|	|____ _id : str
+|	|	|____ title : str
+|	|____ entityType : str
+|	|____ images : NoneType
+|	|____ isBest : bool
+|	|____ isByTeacher : bool
+|	|____ order : int
+|	|____ platform : str
+|	|____ reasons : list
+|	|____ replyCount : int
+|	|____ reportCount : int
+|	|____ text : str
+|	|____ topicId : str
+|	|____ topicInfo : dict
+|	|	|____ _id : bson.objectid.ObjectId
+|	|	|____ title : str
+|	|	|____ userId : str
+|	|____ updatedAt : datetime.datetime
+|	|____ upvoteCount : int
+|	|____ userId : str
+|	|____ userInfo : dict
+|	|	|____ _id : str
+|	|	|____ headimgurl : str
+|	|	|____ nickname : str
+|____ createdAt : datetime.datetime
+|____ downvoteCount : int
+|____ entityId : str
+|____ entityInfo : dict
+|	|____ _id : str
+|	|____ title : str
+|____ entityType : str
+|____ images : NoneType
+|____ isBest : bool
+|____ order : int
+|____ platform : str
+|____ reasons : list
+|____ reportCount : int
+|____ text : str
+|____ title : str
+|____ updatedAt : datetime.datetime
+|____ upvoteCount : int
+|____ userId : str
+|____ userInfo : dict
+|	|____ headimgurl : str
+|	|____ nickname : str
+========== us.topic ==========
+
+Done!
+========== us.productgroup ==========
+========== us.productgroup ==========
+
+Done!
+========== us.useraddresses ==========
+|____ _id : bson.objectid.ObjectId
+|____ city : str
+|____ contacts : str
+|____ detail : str
+|____ district : str
+|____ isDefault : bool
+|____ phone : str
+|____ province : str
+|____ userId : str
+========== us.useraddresses ==========
+
+Done!
+========== us.pointsrecords ==========
+========== us.pointsrecords ==========
+
+Done!
+========== us.pointssliders ==========
+========== us.pointssliders ==========
+
+Done!
+========== us.livelessons ==========
+|____ __v : int
+|____ _id : bson.objectid.ObjectId
+|____ ads : list
+|____ aliId : str
+|____ audioUrl : str
+|____ capacity : int
+|____ ccId : str
+|____ createdAt : datetime.datetime
+|____ deleted : bool
+|____ description : str
+|____ duration : int
+|____ endTime : datetime.datetime
+|____ lectureURL : str
+|____ maxOnlineCount : int
+|____ noticedTime : NoneType
+|____ onlineCountBase : int
+|____ poster : str
+|____ qrcodeId : int
+|____ startTime : datetime.datetime
+|____ stats : dict
+|	|____ viewCount : int
+|	|____ viewTime : int
+|____ teachers : list
+|	|____ id : str
+|	|____ name : str
+|	|____ order : int
+|	|____ shortDesc : str
+|	|____ smallImg : str
+|	|____ zhongheTitle : str
+|____ title : str
+|____ type : str
+|____ updatedAt : datetime.datetime
+|____ vendorInfo : dict
+|	|____ audio : bool
+|	|____ convertStatus : int
+|	|____ courseType : int
+|	|____ coverImgUrl : NoneType
+|	|____ endTime : str
+|	|____ hostCode : str
+|	|____ roomId : str
+|	|____ startTime : str
+|	|____ title : str
+|	|____ validEndTime : str
+|	|____ video : bool
+|	|____ vod : bool
+|	|____ weixinLiving : bool
+|____ vendorName : str
+|____ videoUrl : str
+|____ zhentiDuration : int
+========== us.livelessons ==========
+
+Done!
+========== us.coinrecords ==========
+========== us.coinrecords ==========
+
+Done!
+========== us.pointsproducts ==========
+|____ _id : bson.objectid.ObjectId
+|____ available : int
+|____ bu : str
+|____ category : str
+|____ createdAt : datetime.datetime
+|____ description : str
+|____ icon : str
+|____ order : int
+|____ platform : str
+|____ poster : str
+|____ price : int
+|____ relatedId : str
+|____ relatedPlatform : str
+|____ summary : str
+|____ title : str
+|____ total : int
+|____ updatedAt : datetime.datetime
+========== us.pointsproducts ==========
+
+Done!
+========== us.sendupdateaddressremindlogs ==========
+========== us.sendupdateaddressremindlogs ==========
+
+Done!
+========== us.pointsexchanges ==========
+========== us.pointsexchanges ==========
+
+Done!
+========== us.logisticsorder ==========
+========== us.logisticsorder ==========
+
+Done!
+========== us.userstudypushrecords ==========
+========== us.userstudypushrecords ==========
+
+Done!
+========== us.userschedulegeneral ==========
+========== us.userschedulegeneral ==========
+
+Done!
+========== us.livelessongroups ==========
+|____ __v : int
+|____ _id : bson.objectid.ObjectId
+|____ count : int
+|____ createdAt : datetime.datetime
+|____ deleted : bool
+|____ description : str
+|____ duration : int
+|____ endTime : datetime.datetime
+|____ lessons : list
+|	|____ id : str
+|	|____ type : str
+|____ startTime : datetime.datetime
+|____ tags : str
+|____ title : str
+|____ updatedAt : datetime.datetime
+========== us.livelessongroups ==========
+
+Done!
+========== us.mycourse ==========
+========== us.mycourse ==========
+
+Done!
+========== us.comment ==========
+|____ _id : bson.objectid.ObjectId
+|____ bu : str
+|____ createdAt : datetime.datetime
+|____ downvoteCount : int
+|____ entityId : str
+|____ entityInfo : dict
+|	|____ _id : str
+|	|____ title : str
+|____ entityType : str
+|____ images : NoneType
+|____ isBest : bool
+|____ isByTeacher : bool
+|____ order : int
+|____ platform : str
+|____ reasons : list
+|____ replyCount : int
+|____ reportCount : int
+|____ text : str
+|____ topicId : str
+|____ topicInfo : dict
+|	|____ _id : bson.objectid.ObjectId
+|	|____ title : str
+|	|____ userId : str
+|____ updatedAt : datetime.datetime
+|____ upvoteCount : int
+|____ userId : str
+|____ userInfo : dict
+|	|____ _id : str
+|	|____ headimgurl : str
+|	|____ nickname : str
+========== us.comment ==========
+
+Done!
+========== us.lessons ==========
+========== us.lessons ==========
+
+Done!
+========== us.myquestion ==========
+========== us.myquestion ==========
+
+Done!
+========== us.alipushrecords ==========
+|____ _id : bson.objectid.ObjectId
+|____ bu : str
+|____ content : str
+|____ operatorEmail : str
+|____ platform : str
+|____ pushTime : int, str
+|____ result : dict
+|	|____ errors : list
+|	|____ msgIds : list
+|	|____ success : int
+|	|____ total : int
+|____ title : str
+========== us.alipushrecords ==========
+
+Done!
+========== us.studydiagnostics ==========
+========== us.studydiagnostics ==========
+
+Done!
+========== us.userstudydetail ==========
+========== us.userstudydetail ==========
+
+Done!
+========== us.teachers ==========
+|____ _id : bson.objectid.ObjectId
+|____ bu : str
+|____ createdAt : datetime.datetime
+|____ desc : str
+|____ entityCounts : dict
+|	|____ book : int
+|____ name : str
+|____ order : str
+|____ poster : str
+|____ shortDesc : str
+|____ signature : str
+|____ siteDescription : str
+|____ smallImg : str
+|____ subjects : list
+|	|____ id : str
+|	|____ label : str
+|	|____ selected : bool
+|____ title : str
+|____ updatedAt : datetime.datetime
+|____ usUID : str
+|____ userId : str
+|____ videoId : str
+|____ videoUrl : str
+|____ zhongheTitle : str
+========== us.teachers ==========
+
+Done!
+========== us.coupons ==========
+|____ _id : bson.objectid.ObjectId
+|____ available : int
+|____ bu : str
+|____ category : str
+|____ createdAt : datetime.datetime
+|____ endTime : datetime.datetime
+|____ platform : str
+|____ price : int
+|____ productId : str
+|____ startTime : datetime.datetime
+|____ title : str
+|____ total : int
+|____ updatedAt : datetime.datetime
+|____ useCondition : int
+========== us.coupons ==========
+
+Done!
+========== us.checkinusers ==========
+========== us.checkinusers ==========
+
